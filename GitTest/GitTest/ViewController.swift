@@ -11,12 +11,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("World")
-        print("Hello World")
-        print("Hello")
-        
+        say("Hello world")
     }
 
-
+    func say(_ text:String){
+        print(text)
+    }
+    
 }
 
